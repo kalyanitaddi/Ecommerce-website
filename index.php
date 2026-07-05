@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'includes/db.php';
+include 'database/db.php';
 
 $logged_in = isset($_SESSION['user_id']);
 

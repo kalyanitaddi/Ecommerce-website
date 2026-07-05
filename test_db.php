@@ -1,5 +1,5 @@
 <?php
-include 'includes/db.php';
+include 'database/db.php';
 
 if ($conn) {
     echo "Database connected successfully!";

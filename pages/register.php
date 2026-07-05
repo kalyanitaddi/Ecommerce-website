@@ -1,5 +1,5 @@
 <?php
-include '../includes/db.php';
+include '../database/db.php';
 
 if (isset($_POST['register'])) {
     $email = $_POST['email'];

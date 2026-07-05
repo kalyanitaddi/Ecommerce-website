@@ -4,7 +4,7 @@ if (isset($_SESSION['user_id'])) {
     header("Location: ../index.php");
     exit();
 }
-include '../includes/db.php';
+include '../database/db.php';
 
 if (isset($_POST['login'])) {
     $email = $_POST['email'];
